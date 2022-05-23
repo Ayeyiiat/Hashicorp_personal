@@ -1,0 +1,55 @@
+{
+    "started_at": "2022-05-18T16:01:08.763135-04:00",
+    "ended_at": "2022-05-18T16:01:08.855105-04:00",
+    "duration": "0.091969666 seconds",
+    "num_seekers": 6,
+    "configuration": {
+        "host_config": null,
+        "products_config": null,
+        "operating_system": "auto",
+        "serial": false,
+        "dry_run": false,
+        "consul_enabled": false,
+        "nomad_enabled": false,
+        "terraform_ent_enabled": false,
+        "vault_enabled": false,
+        "since": "2022-05-15T16:01:08.763034-04:00",
+        "until": "0001-01-01T00:00:00Z",
+        "includes": null,
+        "destination": "."
+    },
+    "seekers": {
+        "host": [
+            {
+                "seeker": "uname -v",
+                "error": "",
+                "status": "success"
+            },
+            {
+                "seeker": "disks",
+                "error": "",
+                "status": "success"
+            },
+            {
+                "seeker": "info",
+                "error": "",
+                "status": "success"
+            },
+            {
+                "seeker": "memory",
+                "error": "",
+                "status": "success"
+            },
+            {
+                "seeker": "process",
+                "error": "",
+                "status": "success"
+            },
+            {
+                "seeker": "network",
+                "error": "",
+                "status": "success"
+            }
+        ]
+    }
+}
